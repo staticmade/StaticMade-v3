@@ -12,6 +12,9 @@
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300">
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <script async src='https://adnwidgets.herokuapp.com/alpha.js'></script>
+<script src="http://platform.tumblr.com/v1/share.js"></script>
+<script src='https://d2zh9g63fcvyrq.cloudfront.net/adn.js'></script>
+<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='//d2zh9g63fcvyrq.cloudfront.net/adn.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'adn-button-js'));</script>
 </head>
 <body>
 	<header class="sixteen columns">
@@ -20,7 +23,7 @@
 				<h1><a href="<?php echo get_settings('home'); ?>"><?php bloginfo('name'); ?></a></h1>
 				<p>Written + produced with love in the City of Champions.</p>
 				<p>&nbsp;</p>
-				<p><a href="/about/">Colophon</a> | <a href="/subscribe/">Subscribe</a> | <a href="/archives/">Archive</a></p>
+				<p><a href="/about/">About</a> | <a href="/subscribe/">Feeds</a> | <a href="http://museopunks.org/">Podcast</a> | <a href="/archive">Archive</a></p>
 			</div>
 		</div>
 	</header>

@@ -5,7 +5,7 @@
 	Description: A custom theme built on Timothy Long's Entropy. 
 	Author: Static Made
 	Author URI: http://staticmade.com
-	Version: 3.0;
+	Version: 1.0;
 
 */
 
@@ -77,7 +77,7 @@
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
 
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	hr { border: solid #ddd; border-width: 2px 0 0; clear: both; margin: 30px 0 30px; height: 0; }
 
 /*
 
@@ -109,7 +109,7 @@
 	li { line-height: 18px; margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
-	li a { color: #999; }
+	li a { color: #29636e; }
 
 /*
 
@@ -240,13 +240,15 @@
 		color: #333;
 	}
 	article h3 a {
-		color: #999; 
+		color: #29636e; 
 	}
 	article p {
 		margin-bottom: 20px;
 	}
 	article p a {
-		color: #999; 
+		color: #29636e;
+		font-weight: bold;
+		text-decoration: none; 
 	}
 	cite, cite a {
 		margin-top: 20px;
@@ -273,8 +275,14 @@
 		border-left: 4px solid #999;
 		text-align: left;
 	}
+	blockquote a{
+		color: #29636e;
+	}
 	#disqus_thread {
 		margin-top: 60px;
+	}
+	#disqus_thread a{
+		color: #29636e;
 	}
 
 /*

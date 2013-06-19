@@ -3,13 +3,14 @@
 	<article>
 		<div class="container">
 			<div class="thirteen columns offset-by-three">
-			    <?php if (is_linked_list()): ?>
+			  <?php if (is_linked_list()): ?>
 			    <h2 class="entry-title linked-list-item"><a href="<?php the_linked_list_link(); ?>" title="<?php printf( esc_attr__( 'Link to %s', 'Nova' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?> &rarr;</a></h2>
 			    <?php else: ?>
 				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 				<?php endif; ?>
 				<?php the_content(); ?>
-				<?php if (is_linked_list()): ?><h3><a href="<?php the_permalink(); ?>">&infin;</a></h3><?php endif; ?>							</div>
+				<?php if (is_linked_list()): ?><h3><a href="<?php the_permalink(); ?>">&infin;</a></h3><?php endif; ?>
+							</div>
 		</div>
 	</article>
 	<?php endwhile; ?>
