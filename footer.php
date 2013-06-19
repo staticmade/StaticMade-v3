@@ -6,7 +6,8 @@
 					<li><?php next_posts_link('Next Page &rarr;', 0); ?></li>
 				</ul>-->
 				<p>&nbsp;</p>
-				<p><a href='https://alpha.app.net/intent/follow/?user_id=%40StaticMade' class='adn-button' target='_blank' data-type='follow' data-width='200' data-height='27' data-user-id='@StaticMade' data-show-username='1' rel='me'>Follow me on App.net</a></p>
+				<p><a href='https://alpha.app.net/intent/follow/?user_id=%40StaticMade' data-type='follow' data-user-id='@StaticMade' data-show-username='1' rel='me'><i class="icon-adn icon-4x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/StaticMade"><i class="icon-twitter icon-4x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/feed/"><i class="icon-rss icon-4x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://staticmade.us2.list-manage1.com/subscribe?u=05f7922e1298c34e6bada49b3&id=3138bc64c7"><i class="icon-envelope icon-4x"></i></a></p>
+				<!--<p><a href='https://alpha.app.net/intent/follow/?user_id=%40StaticMade' class='adn-button' target='_blank' data-type='follow' data-width='200' data-height='27' data-user-id='@StaticMade' data-show-username='1' rel='me'>Follow me on App.net</a></p>-->
 				<p><?php get_search_form(); ?></p>
 				<p>All original content posted on this site is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> -- Some Rights Reserved</p>
 			</div>

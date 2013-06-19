@@ -10,6 +10,7 @@
 <link rel="alternate" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather:400,700">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300">
+<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <script async src='https://adnwidgets.herokuapp.com/alpha.js'></script>
 <script src="http://platform.tumblr.com/v1/share.js"></script>
