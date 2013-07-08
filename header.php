@@ -24,7 +24,7 @@
 				<h1><a href="<?php echo get_settings('home'); ?>"><?php bloginfo('name'); ?></a></h1>
 				<p>Written + produced with love in the City of Champions.</p>
 				<p>&nbsp;</p>
-				<p><a href="/about/">About</a> | <a href="/subscribe/">Feeds</a> | <a href="http://museopunks.org/">Podcast</a> | <a href="/archive">Archive</a></p>
+				<p><a href="/archive">Archive</a> | <a href="/about/">Colophon</a> | <a href="/subscribe/">Feeds</a> | <a href="http://museopunks.org/">Podcast</a></p>
 			</div>
 		</div>
 	</header>
