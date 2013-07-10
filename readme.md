@@ -1,6 +1,6 @@
 # [Static Made v3.0](http://www.staticmade.com)
 
-Static Made v3.0 is an adaptation of Timothy Long's [Entropy Theme](timothy-long.com/entropy). In addition to Timothy's initial design, I've included styling for linked-list posts, page navigation and site search.
+Static Made v3.0 is an adaptation of Timothy Long's [Entropy Theme](timothy-long.com/entropy). In addition to Timothy's initial design, I've included styling tweaks and support for site archives, linked-list posts, page navigation and site search.
 
 ## Licensing
 
