@@ -10,7 +10,8 @@
 				<?php endif; ?>
 				<?php the_content(); ?>
 				<time><hr />			
-				<p>This post was published on <?php the_time('F jS, Y') ?>. If you enjoyed it, I'd love if you would tell some friends: <a href="https://alpha.app.net/intent/post?text=<?php the_title(); ?>+-+<?php the_permalink(); ?>+via+%40StaticMade">ADN</a> | <a href="https://twitter.com/intent/tweet?text=<?php the_title(); ?>+-+<?php the_permalink(); ?>+via+%40StaticMade">Twitter</a> | <a href="http://www.tumblr.com/share" title="Share on Tumblr">Tumblr</a> 
+				<p>This post was published on <?php the_time('F jS, Y') ?>. If you enjoyed it, I'd love if you would tell some friends: 
+				<br /><a href="https://alpha.app.net/intent/post?text=<?php the_title(); ?>+-+<?php the_permalink(); ?>+via+%40StaticMade">ADN</a> | <a href="https://twitter.com/intent/tweet?text=<?php the_title(); ?>+-+<?php the_permalink(); ?>+via+%40StaticMade">Twitter</a> | <a href="http://www.tumblr.com/share" title="Share on Tumblr">Tumblr</a> 
 				<!--<br /><br />		
 				<a href='https://alpha.app.net/intent/follow/?user_id=%40StaticMade' class='adn-button' target='_blank' data-type='follow' data-width='277' data-height='27' data-user-id='@StaticMade' data-show-username='1' rel='me'>Follow me on App.net</a>
 <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='//d2zh9g63fcvyrq.cloudfront.net/adn.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'adn-button-js'));</script>&nbsp;&nbsp;<a href="https://twitter.com/StaticMade" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @StaticMade</a>

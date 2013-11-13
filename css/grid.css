@@ -43,11 +43,11 @@
     .container .nine.columns                    { width: 520px; }
     .container .ten.columns                     { width: 580px; }
     .container .eleven.columns                  { width: 640px; }
-    .container .twelve.columns                  { width: 700px; }
-    .container .thirteen.columns                { width: 760px; }
-    .container .fourteen.columns                { width: 820px; }
+    .container .twelve.columns                  { width: 800px; }
+    .container .thirteen.columns                { width: 940px; }
+    //*.container .fourteen.columns                { width: 820px; }
     .container .fifteen.columns                 { width: 880px; }
-    .container .sixteen.columns                 { width: 940px; }
+    .container .sixteen.columns                 { width: 940px; }*//
 
     .container .one-third.column                { width: 300px; }
     .container .two-thirds.column               { width: 620px; }
@@ -55,7 +55,7 @@
     /* Offsets */
     .container .offset-by-one                   { padding-left: 60px;  }
     .container .offset-by-two                   { padding-left: 120px; }
-    .container .offset-by-three                 { padding-left: 180px; }
+    .container .offset-by-three                 { padding-left: 0px; }
     .container .offset-by-four                  { padding-left: 240px; }
     .container .offset-by-five                  { padding-left: 300px; }
     .container .offset-by-six                   { padding-left: 360px; }
