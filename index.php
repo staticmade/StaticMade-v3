@@ -9,7 +9,7 @@
 				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 				<?php endif; ?>
 				<?php the_content(); ?>
-				<?php if (is_linked_list()): ?><h3><a href="<?php the_permalink(); ?>">&infin;</a></h3><?php endif; ?>
+				<?php if (is_linked_list()): ?><h4><a href="<?php the_permalink(); ?>">&infin;</a></h4><?php endif; ?>
 							</div>
 		</div>
 	</article>
