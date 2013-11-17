@@ -337,7 +337,7 @@
 		padding: 10px;
 		/*font-size: 0.7em !important;*/
 		border-radius: 50px;
-		border: thin solid #bbb;
+		border: solid #bbb;
 		/*font-family: Source Sans Pro !important;
 		font-weight: 200 !important;*/
 	}
@@ -345,7 +345,7 @@
     /*background: #bbb;*/
     color: #29636e !important;
     border-radius: 50px;
-	border: thin solid #29636e;
+	border: solid #29636e;
     }
 
 /*
