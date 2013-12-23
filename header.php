@@ -6,6 +6,7 @@
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <meta name="author" content="Static Made">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+<meta name="bitly-verification" content="3efbebebbc9f"/>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="alternate" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather:400,700">
@@ -24,8 +25,8 @@
 				<h1><a href="<?php echo get_settings('home'); ?>"><?php bloginfo('name'); ?></a></h1>
 				<p>Written + produced with love in the City of Champions.</p>
 				<p>&nbsp;</p>
-				<p><a href="/"><i class="icon-home icon-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/archive"><i class="icon-archive icon-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/about/"><i class="icon-male icon-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/subscribe/"><i class="icon-download icon-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://museopunks.org/"><i class="icon-microphone icon-2x"></i></a></p>
-
+				<p><a href="/about">About</a>  |  <a href="/archive">Archive</a>  |  <a href="/subscribe">Feeds</a></p>
+				<!--<ul class="nav"><li><a class="button nav" href="/about">Colophon</a></li> <li><a class="button nav" href="/archive">Archive</a></li><li><a class="button nav" href="http://twitter.com/StaticMade">@StaticMade</a></li></ul>-->
 			</div>
 		</div>
 	</header>

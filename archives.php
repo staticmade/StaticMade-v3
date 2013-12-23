@@ -16,7 +16,7 @@ get_header(); ?>
 
 		<?php the_post(); ?>
 		
-		<p><ul>
+		<div align="center"><p><ul>
 <?php
 global $post;
 $args = array( 'numberposts' => 500, 'offset'=> 0 );
@@ -25,7 +25,7 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
 	 <li><?php the_time('F d, Y') ?>:  <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 <?php endforeach; ?>
 </ul></p>
-         
+		</div>
 	</div>
 		</div>
 </article><!-- end #content-area -->
