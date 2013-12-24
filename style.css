@@ -189,6 +189,18 @@
 		width: 300px;
 		margin: 50px auto 0;
 	}
+	.title ul {
+		margin: 0;
+	}
+	.title li {
+		display: inline;
+		margin: 0 10px;
+	}
+	.title li a {
+		color: #eee;
+		text-decoration: none;
+		font-weight: bold;
+	}
 	.title p {
 		line-height: 24px;
 		margin: 0;
@@ -384,15 +396,9 @@
 	border: solid #29636e;
     }
     
-/*
-
-	Post Formats
-
-*/
-
-.format-image .post-title{
-   display: none;
-}
+    .format-image .post-title {
+    	display:none;
+    }
 
 
 /*

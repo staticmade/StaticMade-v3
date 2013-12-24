@@ -25,8 +25,10 @@
 				<h1><a href="<?php echo get_settings('home'); ?>"><?php bloginfo('name'); ?></a></h1>
 				<p>Written + produced with love in the City of Champions.</p>
 				<p>&nbsp;</p>
-				<p><a href="/about">About</a>  |  <a href="/archive">Archive</a>  |  <a href="/subscribe">Feeds</a></p>
-				<!--<ul class="nav"><li><a class="button nav" href="/about">Colophon</a></li> <li><a class="button nav" href="/archive">Archive</a></li><li><a class="button nav" href="http://twitter.com/StaticMade">@StaticMade</a></li></ul>-->
-			</div>
+				<ul><li><a href="/about">About</a></li>
+				    <li><a href="/archive">Archive</a></li>
+				    <li><a href="/subscribe">Feeds</a></li>
+				</ul>
+				</div>
 		</div>
 	</header>
