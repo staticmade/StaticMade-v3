@@ -361,6 +361,10 @@
 	  	width: 100%    !important;
 	  	height: auto   !important;
 	}
+	
+	ol li {
+		line-height: 27px;
+	}
 	ul.actions {
     	margin-top: 15px;
     }
