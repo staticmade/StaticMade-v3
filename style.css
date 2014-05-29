@@ -374,7 +374,7 @@
     ul.actions li a {
     	/*color: #bbb;
 	    font-family: 'FuturaLT', sans-serif;*/
-	    font-weight: bold;
+	    font-weight: normal;
 	    font-size: inherit;
     }
 
@@ -384,16 +384,16 @@
 	.share {
 		padding: 10px;
 		/*font-size: 0.7em !important;*/
-		border-radius: 50px;
-		border: solid #bbb;
+		border-radius: 0px;
+		border: .15em solid #bbb;
 		/*font-family: Source Sans Pro !important;
 		font-weight: 200 !important;*/
 	}
 	.share:hover, .share:active {
     /*background: #bbb;*/
     color: #29636e !important;
-    border-radius: 50px;
-	border: solid #29636e;
+    border-radius: 0px;
+	border: .15em solid #29636e;
     }
     
     .format-image .post-title {
