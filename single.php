@@ -11,7 +11,11 @@
 				<?php the_content(); ?>
 				<time><hr />			
 				<p>This post was published on <?php the_time('F jS, Y') ?>. If you enjoyed it, I'd love if you would tell some friends: 
-				<ul class="actions"><li><a class="button share" href="https://twitter.com/intent/tweet?text=<?php the_title(); ?>+-+<?php the_permalink(); ?>+via+%40StaticMade">Share on Twitter</a></li><!--<li><a class="button share" href="https://alpha.app.net/intent/post?text=<?php the_title(); ?>+-+<?php the_permalink(); ?>+via+%40StaticMade">Post to ADN</a></li>--><li><a class="button share" href="http://www.tumblr.com/share" title="Share on Tumblr">Reblog on Tumblr</a></li><li><a class="button share" href="https://news.ycombinator.com/submitlink?u=<?php the_permalink(); ?>&t=<?php the_title(); ?>" title="Share on Hacker News">Submit to Hacker News</a></li></ul></p></time>		
+				<ul class="actions">
+				  <li><a class="button share" href="https://twitter.com/intent/tweet?text=<?php the_title(); ?>+-+<?php the_permalink(); ?>+via+%40StaticMade">Share on Twitter</a></li>
+				  <li><a class="button share" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>">Post to Facebook</a></li>
+				  <li><a class="button share" href="http://www.tumblr.com/share" title="Share on Tumblr">Reblog on Tumblr</a></li>
+				  <li><a class="button share" href="https://news.ycombinator.com/submitlink?u=<?php the_permalink(); ?>&t=<?php the_title(); ?>" title="Share on Hacker News">Submit to Hacker News</a></li></ul></p></time>		
 			</div>
 		</div>
 	</article>
