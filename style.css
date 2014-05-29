@@ -399,6 +399,29 @@
     .format-image .post-title {
     	display:none;
     }
+    
+/*
+
+        Pagination
+        
+*/
+        .pagination {
+                background-color: #29636e /*#ccc*/;
+                padding: 25px 0 5px 0;
+        }
+        .pagination ul {
+                text-align: center;
+        }
+        .pagination ul li {
+                display: inline;
+                margin-right: 20px;
+        }
+        .pagination ul li:last-child {
+                /*margin-right: 0;*/
+        }
+        .pagination a {
+                color: #ecf0f1;
+        }
 
 
 /*

@@ -24,4 +24,10 @@
 		</div>
 	</article>
 	<?php endif; ?>
+		<div class="pagination">
+          <ul>
+            <li><?php previous_posts_link('&larr; Previous Page', 0) ?></li>
+            <li><?php next_posts_link('Next Page &rarr;', 0); ?></li>
+          </ul>
+        </div>
 	<?php get_footer(); ?>
