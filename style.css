@@ -343,8 +343,8 @@
 	}
 	.videoWrapper {
     	position: relative;
-    	padding-bottom: 56.25%;
-    	padding-top: 25px;
+    	padding-bottom: 54.1%; /*56.25%;*/
+    	padding-top: 2.2%; /*25px;*/
     	height: 0;
     	margin-bottom: 20px;
     }
